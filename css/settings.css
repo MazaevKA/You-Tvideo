@@ -1,0 +1,135 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 0.694445vw;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+  min-width: 64rem;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+
+/*
+Пример контейнера
+
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2, 
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана
+*/
+
+.container {
+  max-width: 126rem;
+  margin: 0 auto;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  html {
+    /* font-size: (100/320) * 5vw = 1.5625vw; // где 320 это ширина моб версии макета */
+    font-size: 1.5625vw;
+  }
+  .container {
+    width: 60rem;
+  }
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  html {
+    /* font-size: (100/768) * 5vw = 0.651042vw; // где 768 это ширина моб версии макета */
+    font-size: 0.651042vw;
+  }
+  .container {
+    width: 124.8rem;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  html {
+    /* font-size: (1000/1024) = 0.976563vw // где 1024 это ширина макета */
+    font-size: 0.976563vw;
+  }
+  .container {
+    width: 94.2rem;
+  }
+}

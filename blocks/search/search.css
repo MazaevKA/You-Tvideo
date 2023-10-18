@@ -1,0 +1,41 @@
+.search {
+  padding-bottom: 4rem;
+}
+
+.search__form {
+  position: relative;
+  width: 100%;
+}
+
+.search__input {
+  width: 100%;
+  border-radius: 4rem;
+  border: .1rem solid #FB9953;
+  padding: 1rem 12.4rem .9rem 2.4rem;
+  outline: none;
+
+  font-size: 1.6rem;
+  color: #292D32;
+  letter-spacing: 0.03rem;
+}
+
+.search__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.8rem 1.8rem 0.8rem 1.6rem;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  background: #FF6A00;
+  gap: .3rem;
+  color: #FFF;
+  font-size: 1.6rem;
+  letter-spacing: 0.03rem;
+}
+
+.search__icon {
+  width: 2rem;
+  height: 2rem;
+}

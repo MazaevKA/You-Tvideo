@@ -1,0 +1,29 @@
+.header {
+  padding: 3.2rem 0 2.4rem;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 24rem;
+  height: 3.2rem;
+  
+}
+
+.header__link--favorite {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  color: #292D32;
+  font-size: 1.6rem;
+  letter-spacing: .02rem;
+}
+
+.header__star {
+  width: 2rem;
+  height: 2rem;
+}

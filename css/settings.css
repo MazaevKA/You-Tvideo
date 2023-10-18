@@ -18,15 +18,15 @@ body {
   overflow-x: hidden;
   min-width: 64rem;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
-  font-size: 16px;
-  color: #000;
+  color: #292D32;
   background-color: #fff;
+  line-height: 1.2;
 }
 
 

@@ -133,3 +133,7 @@ iframe {
     width: 94.2rem;
   }
 }
+
+.none {
+  display: none;
+}

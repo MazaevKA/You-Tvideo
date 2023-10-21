@@ -80,6 +80,11 @@
   .hero__wrap {
     align-items: flex-start;
   }
+
+  .hero__logo {
+    width: 29rem;
+    height: 3.8rem;
+  }
 }
 
 /* (min-width: 768px) and (max-width: 1023px) */
@@ -113,6 +118,11 @@
     font-size: 4rem;
     letter-spacing: .08rem;
   }
+
+  .hero__logo {
+    width: 40rem;
+    height: 5.4rem;
+  }
 }
 
 /* (min-width: 1024px) and (max-width: 1439px) */
@@ -134,5 +144,10 @@
     letter-spacing: .1rem;
     margin-bottom: 1.6rem;
     padding-top: 3.3rem;
+  }
+
+  .hero__logo {
+    width: 20rem;
+    height: 2.7rem;
   }
 }

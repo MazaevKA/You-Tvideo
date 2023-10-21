@@ -53,7 +53,7 @@
 }
 
 .video__link {
-  width: max-content;
+  flex-shrink: 0;
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -78,4 +78,128 @@
 
 .video__link--active .video__link .video__favorite {
   display: none;
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .video__icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .video {
+    padding-top: 4.5rem;
+   }
+
+  .video__link {
+    font-size: 3.2rem;
+    letter-spacing: 0.07rem;
+    gap: .4rem;
+    padding-top: 1rem;
+  }
+
+  .video__link {
+    gap: .7rem;
+  }
+
+  .video__container {
+    flex-direction: column-reverse;
+    gap: 3.7rem;
+    margin-bottom: 6rem;
+  }
+
+  .video__player {
+    margin-bottom: 3rem;
+  }
+
+  .video__title {
+    font-size: 4.8rem;
+    letter-spacing: 0.13rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .video__channel {
+    font-size: 3.2rem;
+    letter-spacing: 0.08rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .video__info, .video__description {
+    font-size: 3.2rem;
+    letter-spacing: 0.08rem;
+  }
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .video__icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .video {
+    padding-top: 2.5rem;
+  }
+
+  .video__link {
+    font-size: 3.2rem;
+    letter-spacing: 0.07rem;
+    gap: .4rem;
+    padding-top: 1rem;
+  }
+
+  .video__link {
+    gap: .7rem;
+  }
+
+  .video__container {
+    flex-direction: column-reverse;
+    gap: 3.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .video__player {
+    margin-bottom: 4.2rem;
+  }
+
+  .video__title {
+    font-size: 6.4rem;
+    letter-spacing: 0.13rem;
+    margin-bottom: 2rem;
+  }
+
+  .video__channel {
+    font-size: 4rem;
+    letter-spacing: 0.08rem;
+    margin-bottom: 5rem;
+  }
+
+  .video__info, .video__description {
+    font-size: 4rem;
+    letter-spacing: 0.08rem;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .video__title {
+    font-size: 3.2rem;
+    letter-spacing: .06rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .video__channel {
+    font-size: 2rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .video__info, .video__description {
+    font-size: 2rem;
+    letter-spacing: 0.04rem;
+  }
+
+  .video__container {
+    margin-bottom: 1.7rem;
+  }
 }

@@ -23,6 +23,11 @@
   letter-spacing: .02rem;
 }
 
+.hero__logo {
+  width: 24rem;
+  height: 3.2rem;
+}
+
 .hero__icon {
   width: 2rem;
   height: 2rem;

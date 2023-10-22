@@ -23,12 +23,13 @@
 .video-card__thumbnail {
   width: 41.2rem;
   height: 23.2rem;
+  object-fit: cover;
   border-radius: 1.6rem;
   margin-bottom: 1.5rem;
 }
 
 .video-card__title {
-  color: #292D32;
+  color: #292D32;~
   font-size: 2.4rem;
   font-weight: 900;
   letter-spacing: 0.048rem;

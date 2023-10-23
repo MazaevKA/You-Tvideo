@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <script src="/js/script.js" defer></script>
   <title>You-Tvideo — Удобный видеохостинг для тебя </title>
 </head>
 <body>
@@ -43,14 +44,14 @@
     <section class="video">
       <div class="container">
         <div class="video__player">
-          <iframe
+          <!-- <iframe
             class="video__iframe"
             src="https://www.youtube.com/embed/j2L6AGadrgo?si=22gifIELn-5jHeXb"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
-          </iframe>
+          </iframe> -->
         </div>
 
         <div class="video__container">
@@ -62,10 +63,10 @@
             <p class="video__description">Смотрите наш курс-саммари «Как понимать философию» фоном.</p>
           </div>
 
-          <button class="video__link video__link--active">
+          <button class="video__link favorite">
             <span class="video__no-favorite">Избранное</span>
             <span class="video__favorite">В избранном</span>
-            <svg class="video__icon">
+            <svg class="video__icon--active">
               <use xlink:href="/img/sprite.svg#star"></use>
             </svg>
           </button>

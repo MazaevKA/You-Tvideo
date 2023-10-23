@@ -61,7 +61,7 @@
   display: none;
 }
 
-.video-card__favorite--active .star {
+.video-card__favorite.active .star {
   display: block;
 }
 
